@@ -16,7 +16,8 @@ section.team {
 .our-story h1,
 .why-compost h1,
 .product h1,
-.team h1 {
+.team h1,
+.contact h1 {
     background-color: #EEEEEF;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
@@ -26,7 +27,9 @@ section.team {
 }
 
 .story-image,
-.story-content {
+.story-content,
+.why-compost-image,
+.why-compost-content {
     display: inline-block;
     width: 50%;
     height: calc(100vh - 70px);
@@ -41,19 +44,51 @@ section.team {
     object-fit: cover;
 }
 
+.why-compost-image img {
+    display: block;
+    margin: 100px auto;
+    width: 80%;
+    object-fit: cover;
+    box-shadow: 1px 1px 10px black;
+}
+
 .story-content {
     width: calc(50% - 1px);
     border-left: 1px solid #F7F7F7;
 }
 
-.story-content p {
+.story-content p,
+.why-compost-content p,
+.why-compost-content ol li {
     padding: 15px;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
 }
 
+.why-compost-content ol li {
+    padding: 10px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.why-compost-content p button {
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 .social-round {
     border-radius: 50%;
+}
+
+.solid-button {
+    padding: 4px 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pdf {
+    color: white;
+    background-color: #1369B3;
 }
 
 .facebook {
@@ -84,6 +119,11 @@ section.team {
     font-size: 20px;
     color: white;
     padding: 15px 17px;
+}
+
+.fas.fa-file-pdf {
+    font-size: 20px;
+    color: #D70000;
 }
 
 .member {
