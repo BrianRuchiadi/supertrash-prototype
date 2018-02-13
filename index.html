@@ -132,26 +132,40 @@
                 <h1>Contact Us</h1>
             </div>
             <div class="contact-content">
-                <table>
-                    <tr>
-                        <td>Name</td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td><input type="email"></td>
-                    </tr>
-                    <tr>
-                        <td>Type of Service Required</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Message</td>
-                        <td><textarea>
-                            
-                        </textarea></td>
-                    </tr>
-                </table>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Type of Service Required</td>
+                            <td>
+                                <input type="checkbox" name="event" value="commercial-collections">Commercial Collections<br/>
+                                <input type="checkbox" name="event" value="domestic-collections">Domestic Collections<br/>
+                                <input type="checkbox" name="event" value="events">Events<br/>
+                                <input type="checkbox" name="event" value="compostable-bin-liners">Compostable Bin Liners<br/>
+                                <input type="checkbox" name="event" value="others">Other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Message</td>
+                            <td><textarea>
+                                
+                            </textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button class="full-button">Submit</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
             </div>
         </section>
     </div>

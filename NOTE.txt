@@ -1,0 +1,5 @@
+Next milestones :
+1. HTML & CSS For desktop ( > 992px width)
+2. Implementing Webpack
+3. JS 
+4. HTML & CSS For mobile

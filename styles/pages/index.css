@@ -97,6 +97,17 @@ section.team {
     text-align: center;
 }
 
+.full-button {
+    display: block;
+    background-color: #3E7679;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 .pdf {
     color: white;
     background-color: #1369B3;
