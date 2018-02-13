@@ -12,6 +12,7 @@ header {
 .header-fixed {
     position: fixed;
     background-color: #1369B3;
+    /* background-color: #5BBE71; */
     box-shadow: 1px 1px 10px black;
 }
 

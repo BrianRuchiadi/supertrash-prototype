@@ -4,6 +4,23 @@
     font-size: 0;
 }
 
+input,
+textarea {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    width: 400px;
+    border-radius: 3px;
+}
+
 button {
     background-color: silver;
+}
+
+table {
+    margin: 20px auto;
+}
+
+table tr td {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 5px 30px;
 }

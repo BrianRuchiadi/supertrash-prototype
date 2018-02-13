@@ -3,6 +3,7 @@ document.onload = function() {
 }
 
 window.onscroll = function() {
+    console.log(["why compost scroll top", WHYCOMPOST.scrollHeight])
     if (window.scrollY == 0) {
         HEADER.classList.remove('header-fixed')
     } else {

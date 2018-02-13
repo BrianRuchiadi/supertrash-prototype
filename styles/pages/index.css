@@ -18,12 +18,20 @@ section.team {
 .product h1,
 .team h1,
 .contact h1 {
-    background-color: #EEEEEF;
+    background-color: #3E7679;
+    /* background-color: #5BBE71; */
+    color: white;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-size: 40px;
+    box-shadow: 1px 1px 10px black;
     padding: 11px;
+    z-index: 10;
+}
+
+.team-content {
+    padding: 10px 0px;
 }
 
 .story-image,
@@ -39,7 +47,7 @@ section.team {
 
 .story-image img {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 60%;
     object-fit: cover;
 }
@@ -50,6 +58,9 @@ section.team {
     width: 80%;
     object-fit: cover;
     box-shadow: 1px 1px 10px black;
+    border: 3px solid white;
+    border-radius: 10px;
+    transform: rotate(10deg);
 }
 
 .story-content {
@@ -135,4 +146,8 @@ section.team {
     height: 300px;
     background-color: grey;
     border: 1px solid white;
+}
+
+.contact-content table tr td {
+    font-size: 20px;
 }
